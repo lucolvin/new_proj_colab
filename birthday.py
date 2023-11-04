@@ -7,6 +7,7 @@ bday_log = [
 ]
 add = input('To add birthday type y:').strip().lower()
 
+# adds birthday
 if add[:1] == 'y':
    new = input('Add birthday in format yyyy-mm-dd:')
    # print(new_lst)
